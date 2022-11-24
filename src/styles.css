@@ -18,3 +18,10 @@ h1 {
     background-repeat: no-repeat;
     background-size: 1rem 1rem;
   }
+
+  .tausta-green {
+    
+    font-size: 2.2rem;
+    color:azure;
+    background-color: rgb(213, 237, 213);
+  }
