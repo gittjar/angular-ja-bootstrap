@@ -25,12 +25,10 @@
             "styles": [
               "src/styles.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
-              
             ],
             "scripts": [
               "./node_modules/@popperjs/core/dist/umd/popper.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js"
-
             ]
           },
           "configurations": {
@@ -99,6 +97,16 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "angular-ja-bootstrap:build:production",
+            "firebaseProject": "angular-ja-bootstrap-9a321",
+            "firebaseHostingSite": "angular-ja-bootstrap-9a321"
           }
         }
       }

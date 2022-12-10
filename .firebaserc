@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "angular-ja-bootstrap-9a321"
+  },
+  "targets": {
+    "angular-ja-bootstrap-9a321": {
+      "hosting": {
+        "angular-ja-bootstrap": [
+          "angular-ja-bootstrap-9a321"
+        ]
+      }
+    }
+  }
+}
